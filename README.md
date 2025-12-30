@@ -113,6 +113,8 @@ This launcher can be executed directly without repeating AppID detection.
 - If multiple Steam libraries contain games with identical directory names, the first match is used.
 - If a launcher script with the same name already exists, it will be overwritten.
 - Flatpak Steam installations are not explicitly handled.
+- Run Protontricks once to make sure permissions are set right
+- If you have a library in an unusual location symlink the compatdata folder in ~/local/share/Steam/steamapps/ to your other steamapps folder
 
 ## Typical Use Cases
 
