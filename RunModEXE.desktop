@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Run EXE in Prefix
+Exec=~/Applications/bash/RunModEXE.sh "%f"
+Type=Application
+MimeType=MimeType=application/x-ms-dos-executable;
+Icon=com.github.Matoking.protontricks
+Categories=Game;
+Comment=Runs EXE in Steam Prefix
