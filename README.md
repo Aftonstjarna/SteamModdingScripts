@@ -31,6 +31,14 @@ The generated launcher hardcodes the AppID and can be reused indefinitely.
 1. Download or copy the script to a location of your choice.
 2. Mark the script as executable.
 
+or
+
+1. Download or copy the script to '~/Applications/bash/'
+2. Mark the script as executable.
+3. Download or copy the .desktop to '~/.local/share/applications/'
+4. Mark as executable.
+5. Add it to the right click menu of a windows exe by going to Properties > Open With > Change > Application Preference Order > Add
+
 ```bash
 chmod +x proton_run_from_any_subdir.sh
 ```
