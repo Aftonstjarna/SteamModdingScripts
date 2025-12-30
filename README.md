@@ -1,3 +1,7 @@
+# Proton Prefix Opener
+When placed in the game folder it detects the proton prefix and opens in in Dolphin file manager
+
+
 # Proton Static Launcher Generator
 
 ## Overview
