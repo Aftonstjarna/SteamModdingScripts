@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Game;
+Comment[en_US]=Opens Steam Prefix
+Comment=Opens Steam Prefix
+Exec=/home/deck/Applications/bash/OpenSteamPrefix.sh %f
+GenericName[en_US]=
+GenericName=
+Icon=com.github.Matoking.protontricks
+MimeType=
+Name[en_US]=Open Prefix
+Name=Open Prefix
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
