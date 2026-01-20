@@ -1,6 +1,8 @@
 # Proton Prefix Opener
 When ran in a game folder it detects the proton prefix and opens in in Dolphin file manager
 
+Install kdotools for automatic splitview, otherwise it will open tabs
+flatpak install flathub org.kde.kdotool
 
 # Proton Static Launcher Generator
 
