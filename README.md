@@ -1,6 +1,31 @@
 # Proton Prefix Opener
 When ran in a game folder it detects the proton prefix and opens in in Dolphin file manager
 
+How it works:
+
+Detects your OS (SteamOS vs Bazzite vs other)
+Tries multiple automation tools in order:
+
+dotool - Universal, works everywhere
+wtype - Common on SteamOS (Wayland)
+ydotool - Alternative tool
+
+
+Graceful fallback - Opens both folders in tabs with instructions if no automation tool is found
+
+On stock systems:
+
+Both will work immediately, opening folders in tabs
+For automatic split view, optionally install dotool:
+
+Bazzite: rpm-ostree install dotool (then reboot)
+SteamOS: sudo steamos-readonly disable && sudo pacman -S dotool && sudo steamos-readonly enable
+
+
+
+Even without extra tools, it'll still open both folders and tell you to press F3
+
+
 # Proton Static Launcher Generator
 
 ## Overview
